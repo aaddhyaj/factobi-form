@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factobi Interest Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 flex items-center justify-center min-h-screen">
+    <form class="bg-white shadow-xl rounded-2xl p-8 w-full max-w-lg">
+      <h1 class="text-2xl font-bold text-center mb-6">Factobi Interest Form</h1>
+
+      <!-- Name -->
+      <label class="block mb-4">
+        <span class="text-gray-700">Name</span>
+        <input
+          type="text"
+          class="mt-1 w-full rounded-lg border border-orange-300 px-3 py-2 focus:ring-2 focus:ring-orange-400"
+        />
+      </label>
+
+      <!-- Company Name -->
+      <label class="block mb-4">
+        <span class="text-gray-700">Company Name</span>
+        <input
+          type="text"
+          class="mt-1 w-full rounded-lg border border-blue-300 px-3 py-2 focus:ring-2 focus:ring-blue-400"
+        />
+      </label>
+
+      <!-- Industry -->
+      <label class="block mb-4">
+        <span class="text-gray-700">Industry</span>
+        <input
+          type="text"
+          class="mt-1 w-full rounded-lg border border-green-300 px-3 py-2 focus:ring-2 focus:ring-green-400"
+        />
+      </label>
+
+      <!-- Email -->
+      <label class="block mb-4">
+        <span class="text-gray-700">Email</span>
+        <input
+          type="email"
+          class="mt-1 w-full rounded-lg border border-orange-300 px-3 py-2 focus:ring-2 focus:ring-orange-400"
+        />
+      </label>
+
+      <!-- Heard About -->
+      <label class="block mb-4">
+        <span class="text-gray-700">How did you hear about us?</span>
+        <input
+          type="text"
+          class="mt-1 w-full rounded-lg border border-blue-300 px-3 py-2 focus:ring-2 focus:ring-blue-400"
+        />
+      </label>
+
+      <!-- Dropdown -->
+      <label class="block mb-6">
+        <span class="text-gray-700">What service are you interested in?</span>
+        <select
+          class="mt-1 w-full rounded-lg border border-green-300 px-3 py-2 focus:ring-2 focus:ring-green-400"
+        >
+          <option value="">Select a service</option>
+          <option value="financial">Financial Management</option>
+          <option value="hr">HR</option>
+          <option value="tasks">Task Allocation</option>
+          <option value="minutes">Meeting Minutes</option>
+          <option value="tickets">Ticketing Systems</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <!-- Submit -->
+      <button
+        type="submit"
+        class="w-full bg-gradient-to-r from-orange-300 via-blue-300 to-green-300 text-black font-semibold py-2 rounded-lg shadow-md hover:opacity-90 transition"
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
